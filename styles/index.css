@@ -1,0 +1,119 @@
+body {
+    background-color: #f8edebff;
+}
+.grid__container {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 24px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    height: 100vh;
+    background-color: #fcd5ceff;
+    border-top: 24px solid #fcd5ceff;
+    border-left: 24px solid #fcd5ceff;
+    border-right: 24px solid #fcd5ceff;
+}
+.item-1 {
+    grid-column: 1/3;
+    grid-row: 1/4;
+    background-color: #ff0a54ff;
+}
+.item-2 {
+    grid-column: 1/3;
+    grid-row: 4/7;
+    background-color: #ff477eff;;
+}
+.item-3 {
+    grid-column: 1/3;
+    grid-row: 7/11;
+    background-color: #ff5c8aff;
+}
+.item-4 {
+    grid-column: 3/5;
+    grid-row: 1/7;
+    background-color: #ff7096ff;
+}
+.item-5 {
+    grid-column: 3/4;
+    grid-row: 7/9;
+    background-color: #ff85a1ff;
+}
+.item-6 {
+    grid-column: 3/4;
+    grid-row: 9/11;
+    background-color: #ff99acff;
+}
+.item-7 {
+    grid-column: 5/7;
+    grid-row: 1/3;
+    background-color: #fbb1bdff;
+}
+.item-8 {
+    grid-column: 5/7;
+    grid-row: 3/5;
+    background-color: #f9bec7ff;;
+}
+.item-9 {
+    grid-column: 5/7;
+    grid-row: 5/7;
+    background-color: #f7cad0ff;
+}
+.item-10 {
+    grid-column: 4/6;
+    grid-row: 7/11;
+    background-color: #fae0e4ff;
+}
+.item-11 {
+    grid-column: 6/7;
+    grid-row: 7/11;
+    background-color: #f28482ff;
+}
+.item-12 {
+    grid-column: 1/7;
+    grid-row: 11/13;
+    background-color: lightpink;
+    display: flex;
+    align-items: center;
+}
+.grid__text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: #e8e8e4ff;
+    text-shadow: 0 0 1px black;
+}
+
+/* 
+mixed:
+--hunyadi-yellow: #f6bd60ff;
+--linen: #f7ede2ff;
+--tea-rose-red: #f5cac3ff;
+--cambridge-blue: #84a59dff;
+--light-coral: #f28482ff;
+
+pinks: (dark to light)
+--folly: #ff0a54ff;
+--french-rose: #ff477eff;
+--bright-pink-crayola: #ff5c8aff;
+--rose-pompadour: #ff7096ff;
+--tickle-me-pink: #ff85a1ff;
+--salmon-pink: #ff99acff;
+--cherry-blossom-pink: #fbb1bdff;
+--pink: #f9bec7ff;
+--tea-rose-red: #f7cad0ff;
+--misty-rose: #fae0e4ff;
+
+pastells:
+--melon: #fec5bbff;
+--pale-dogwood: #fcd5ceff;
+--misty-rose: #fae1ddff;
+--seashell: #f8edebff;
+--platinum: #e8e8e4ff;
+--platinum-2: #d8e2dcff;
+--linen: #ece4dbff;
+--champagne-pink: #ffe5d9ff;
+--apricot: #ffd7baff;
+--peach: #fec89aff;
+*/
